@@ -1,0 +1,30 @@
+Computer Systems I Final
+Kevin Wang and Andy Tang
+
+Stage 1: Single-cycle processor
+
+Successfully implemented the following instructions:
+a.	     add
+b.	     lw
+c.	     sw
+d.	     jr
+e.	     jal (the link is stored in register 7)
+f.	     nor
+g.	     nori
+h.	     not
+i.	     bleu
+j.	     rolv
+k.	     rorv
+
+All control signals are declared in the Control file and are listed below with details of usage:
+    memWrite - whether memory is written
+    regWriteEnable- whether registers are written
+    aluSrc - control line for mux into ALU, determines whether input to ALU is immediate or register value
+    jjr - control line for mux into PC, based on whether a jump operation is a jr or a jal
+    ja - control line for mux into PC, based on whether a jump operation is performed
+    link - control line for mux into WD3 of register file, based on whether a jal operation is performed (functionally equivalent to ~jjr)
+    memtoReg - control line for mux into WD3, based on whether ALU result or memory is read
+    brancha - control line for mux into PC, based on whether a branch is performed
+    alu0-4 - control line for ALU operations, determines what operation is output
+
+There are three adders in this implementation: PC->PC+4, PC+4+imm->branch, and ALU.

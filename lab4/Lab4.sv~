@@ -1,0 +1,28 @@
+//Kevin Wang and Andy Tang
+
+module Lab4(Sw1, Sw2, Sw3, L1, L2, L3, clock);
+
+   input logic Sw1, Sw2, Sw3, clock;
+   
+
+   output logic L1, L2, L3;
+
+   logic 	In1, In2,In3,Out1,Out2,Out3;
+   
+
+   // an instance of theCircuit, witn inputs and outputs
+   
+   theCircuit c1(In1, In2, In3, Out1, Out2, Out3);
+
+   // the following is like connecting wires, but the statements are
+   // directinal  make sure that the source is on the right
+
+   assign In1 = Sw1;
+   assign In2 = Sw2;
+   assign In3 = Sw3;
+
+   assign L1 = Out1;
+   assign L2 = Out2;
+   assign L3 = Out3;
+   
+endmodule

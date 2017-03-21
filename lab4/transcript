@@ -1,0 +1,40 @@
+# vsim -lib work -c tester2 
+# Start time: 14:47:48 on Sep 30,2016
+# Loading sv_std.std
+# Loading work.tester2
+# Loading work.Lab4
+# Loading work.theCircuit
+# Loading work.dflipflop
+# Output is 0 1 0
+# Output is 0 0 1
+# Output is 0 1 1
+# Output is 1 0 0
+# Output is 1 1 0
+# Output is 1 0 1
+# Output is 1 1 1
+# Output is 0 0 0
+# Output is 0 1 0
+# Output is 0 0 1
+# Output is 0 1 1
+# Output is 1 0 0
+# Output is 1 1 0
+# Output is 1 0 1
+# Output is 1 1 1
+# Output is 0 0 0
+# Output is 0 1 0
+# Output is 0 0 1
+# Output is 0 1 1
+# Output is 1 0 0
+# Output is 1 1 0
+# Output is 1 0 1
+# Output is 1 1 1
+# Output is 0 0 0
+# Output is 0 1 0
+# Output is 0 0 1
+# End of simulation at clock count          25
+# ** Note: $stop    : tester2.sv(34)
+#    Time: 1 ns  Iteration: 1  Instance: /tester2
+# Break in Module tester2 at tester2.sv line 34
+# Stopped at tester2.sv line 34
+# End time: 14:48:21 on Sep 30,2016, Elapsed time: 0:00:33
+# Errors: 0, Warnings: 0

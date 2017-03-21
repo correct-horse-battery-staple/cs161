@@ -1,0 +1,16 @@
+module theCircuit(Sw1, Sw2, Sw3, L1, L2, L3);
+
+   input logic Sw1, Sw2, Sw3;
+   
+
+   output logic L1, L2, L3;
+
+
+   assign L1 = ~ Sw1;
+   assign L2 = 0;
+   assign L3 = 0;
+   
+   
+   
+
+endmodule

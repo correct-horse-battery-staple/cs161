@@ -1,0 +1,533 @@
+# vsim -lib work -c tester3 
+# Start time: 16:35:36 on Dec 12,2016
+# Loading sv_std.std
+# Loading work.tester3
+# Loading work.DataPath
+# Loading work.enabledRegister
+# Loading work.mux2to1B32
+# Loading work.mux4to1B32
+# Loading work.mux4to1B4
+# Loading work.mux4to1B1
+# Loading work.enabledRegister1b
+# Loading work.memory
+# Loading work.Control
+# Loading work.registerFile
+# Loading work.mux8to1B32
+# Loading work.adder
+# Loading work.ALU
+# Loading work.Nora
+# Loading work.Rolv
+# Loading work.Rorv
+# Loading work.Nota
+# Loading work.mux2to1B5
+# register 0 00000000 
+# register 1 00000000 
+# register 2 00000000 
+# register 3 00000000 
+# register 4 00000000 
+# register 5 00000000 
+# register 6 00000000 
+# register 7 00000000 
+# PC Address : 00000000
+# PC D: 00000004 
+# Instruction : 00000000
+# memA:	         0
+# memRD:	2357264428
+# regALUQ:	         0
+# WD3:		         0
+# pcEnableIn:		0
+# pcEnableOut:		1
+# IRegEnable:		1
+# IorD:			1
+# regAEnable:		1
+# memWrite:		0
+# regWriteEnable:	1
+# aluSrc:		0
+# jjr:			0
+# ja:			0
+# link:			0
+# memtoReg:		0
+# brancha:		0
+# register 0 00000000 
+# register 1 00000000 
+# register 2 00000000 
+# register 3 00000000 
+# register 4 00000000 
+# register 5 00000000 
+# register 6 00000000 
+# register 7 00000000 
+# PC Address : 00000000
+# PC D: 00000004 
+# Instruction : 8c81002c
+# memA:	         0
+# memRD:	2357264428
+# regALUQ:	         0
+# WD3:		         0
+# pcEnableIn:		1
+# pcEnableOut:		0
+# IRegEnable:		0
+# IorD:			1
+# regAEnable:		1
+# memWrite:		0
+# regWriteEnable:	0
+# aluSrc:		1
+# jjr:			0
+# ja:			0
+# link:			0
+# memtoReg:		0
+# brancha:		0
+# register 0 00000000 
+# register 1 00000000 
+# register 2 00000000 
+# register 3 00000000 
+# register 4 00000000 
+# register 5 00000000 
+# register 6 00000000 
+# register 7 00000000 
+# PC Address : 00000004
+# PC D: 00000008 
+# Instruction : 8c81002c
+# memA:	        44
+# memRD:	         x
+# regALUQ:	        44
+# WD3:		         x
+# pcEnableIn:		0
+# pcEnableOut:		1
+# IRegEnable:		1
+# IorD:			0
+# regAEnable:		1
+# memWrite:		0
+# regWriteEnable:	1
+# aluSrc:		1
+# jjr:			0
+# ja:			0
+# link:			0
+# memtoReg:		1
+# brancha:		0
+# register 0 00000000 
+# register 1 xxxxxxxx 
+# register 2 00000000 
+# register 3 00000000 
+# register 4 00000000 
+# register 5 00000000 
+# register 6 00000000 
+# register 7 00000000 
+# PC Address : 00000004
+# PC D: xxxxxxxx 
+# Instruction : xxxxxxxx
+# memA:	         4
+# memRD:	2357198888
+# regALUQ:	        44
+# WD3:		         X
+# pcEnableIn:		1
+# pcEnableOut:		x
+# IRegEnable:		x
+# IorD:			1
+# regAEnable:		x
+# memWrite:		x
+# regWriteEnable:	x
+# aluSrc:		x
+# jjr:			x
+# ja:			x
+# link:			x
+# memtoReg:		0
+# brancha:		x
+# register 0 00000000 
+# register 1 xxxxxxxx 
+# register 2 00000000 
+# register 3 00000000 
+# register 4 00000000 
+# register 5 00000000 
+# register 6 00000000 
+# register 7 00000000 
+# PC Address : xxxxxxxx
+# PC D: xxxxxxxx 
+# Instruction : xxxxxxxx
+# memA:	         x
+# memRD:	         x
+# regALUQ:	         x
+# WD3:		         x
+# pcEnableIn:		x
+# pcEnableOut:		x
+# IRegEnable:		x
+# IorD:			x
+# regAEnable:		x
+# memWrite:		x
+# regWriteEnable:	x
+# aluSrc:		x
+# jjr:			x
+# ja:			x
+# link:			x
+# memtoReg:		x
+# brancha:		x
+# register 0 00000000 
+# register 1 xxxxxxxx 
+# register 2 00000000 
+# register 3 00000000 
+# register 4 00000000 
+# register 5 00000000 
+# register 6 00000000 
+# register 7 00000000 
+# PC Address : xxxxxxxx
+# PC D: xxxxxxxx 
+# Instruction : xxxxxxxx
+# memA:	         x
+# memRD:	         x
+# regALUQ:	         x
+# WD3:		         x
+# pcEnableIn:		x
+# pcEnableOut:		x
+# IRegEnable:		x
+# IorD:			x
+# regAEnable:		x
+# memWrite:		x
+# regWriteEnable:	x
+# aluSrc:		x
+# jjr:			x
+# ja:			x
+# link:			x
+# memtoReg:		x
+# brancha:		x
+# register 0 00000000 
+# register 1 xxxxxxxx 
+# register 2 00000000 
+# register 3 00000000 
+# register 4 00000000 
+# register 5 00000000 
+# register 6 00000000 
+# register 7 00000000 
+# PC Address : xxxxxxxx
+# PC D: xxxxxxxx 
+# Instruction : xxxxxxxx
+# memA:	         x
+# memRD:	         x
+# regALUQ:	         x
+# WD3:		         x
+# pcEnableIn:		x
+# pcEnableOut:		x
+# IRegEnable:		x
+# IorD:			x
+# regAEnable:		x
+# memWrite:		x
+# regWriteEnable:	x
+# aluSrc:		x
+# jjr:			x
+# ja:			x
+# link:			x
+# memtoReg:		x
+# brancha:		x
+# register 0 00000000 
+# register 1 xxxxxxxx 
+# register 2 00000000 
+# register 3 00000000 
+# register 4 00000000 
+# register 5 00000000 
+# register 6 00000000 
+# register 7 00000000 
+# PC Address : xxxxxxxx
+# PC D: xxxxxxxx 
+# Instruction : xxxxxxxx
+# memA:	         x
+# memRD:	         x
+# regALUQ:	         x
+# WD3:		         x
+# pcEnableIn:		x
+# pcEnableOut:		x
+# IRegEnable:		x
+# IorD:			x
+# regAEnable:		x
+# memWrite:		x
+# regWriteEnable:	x
+# aluSrc:		x
+# jjr:			x
+# ja:			x
+# link:			x
+# memtoReg:		x
+# brancha:		x
+# register 0 00000000 
+# register 1 xxxxxxxx 
+# register 2 00000000 
+# register 3 00000000 
+# register 4 00000000 
+# register 5 00000000 
+# register 6 00000000 
+# register 7 00000000 
+# PC Address : xxxxxxxx
+# PC D: xxxxxxxx 
+# Instruction : xxxxxxxx
+# memA:	         x
+# memRD:	         x
+# regALUQ:	         x
+# WD3:		         x
+# pcEnableIn:		x
+# pcEnableOut:		x
+# IRegEnable:		x
+# IorD:			x
+# regAEnable:		x
+# memWrite:		x
+# regWriteEnable:	x
+# aluSrc:		x
+# jjr:			x
+# ja:			x
+# link:			x
+# memtoReg:		x
+# brancha:		x
+# register 0 00000000 
+# register 1 xxxxxxxx 
+# register 2 00000000 
+# register 3 00000000 
+# register 4 00000000 
+# register 5 00000000 
+# register 6 00000000 
+# register 7 00000000 
+# PC Address : xxxxxxxx
+# PC D: xxxxxxxx 
+# Instruction : xxxxxxxx
+# memA:	         x
+# memRD:	         x
+# regALUQ:	         x
+# WD3:		         x
+# pcEnableIn:		x
+# pcEnableOut:		x
+# IRegEnable:		x
+# IorD:			x
+# regAEnable:		x
+# memWrite:		x
+# regWriteEnable:	x
+# aluSrc:		x
+# jjr:			x
+# ja:			x
+# link:			x
+# memtoReg:		x
+# brancha:		x
+# register 0 00000000 
+# register 1 xxxxxxxx 
+# register 2 00000000 
+# register 3 00000000 
+# register 4 00000000 
+# register 5 00000000 
+# register 6 00000000 
+# register 7 00000000 
+# PC Address : xxxxxxxx
+# PC D: xxxxxxxx 
+# Instruction : xxxxxxxx
+# memA:	         x
+# memRD:	         x
+# regALUQ:	         x
+# WD3:		         x
+# pcEnableIn:		x
+# pcEnableOut:		x
+# IRegEnable:		x
+# IorD:			x
+# regAEnable:		x
+# memWrite:		x
+# regWriteEnable:	x
+# aluSrc:		x
+# jjr:			x
+# ja:			x
+# link:			x
+# memtoReg:		x
+# brancha:		x
+# register 0 00000000 
+# register 1 xxxxxxxx 
+# register 2 00000000 
+# register 3 00000000 
+# register 4 00000000 
+# register 5 00000000 
+# register 6 00000000 
+# register 7 00000000 
+# PC Address : xxxxxxxx
+# PC D: xxxxxxxx 
+# Instruction : xxxxxxxx
+# memA:	         x
+# memRD:	         x
+# regALUQ:	         x
+# WD3:		         x
+# pcEnableIn:		x
+# pcEnableOut:		x
+# IRegEnable:		x
+# IorD:			x
+# regAEnable:		x
+# memWrite:		x
+# regWriteEnable:	x
+# aluSrc:		x
+# jjr:			x
+# ja:			x
+# link:			x
+# memtoReg:		x
+# brancha:		x
+# register 0 00000000 
+# register 1 xxxxxxxx 
+# register 2 00000000 
+# register 3 00000000 
+# register 4 00000000 
+# register 5 00000000 
+# register 6 00000000 
+# register 7 00000000 
+# PC Address : xxxxxxxx
+# PC D: xxxxxxxx 
+# Instruction : xxxxxxxx
+# memA:	         x
+# memRD:	         x
+# regALUQ:	         x
+# WD3:		         x
+# pcEnableIn:		x
+# pcEnableOut:		x
+# IRegEnable:		x
+# IorD:			x
+# regAEnable:		x
+# memWrite:		x
+# regWriteEnable:	x
+# aluSrc:		x
+# jjr:			x
+# ja:			x
+# link:			x
+# memtoReg:		x
+# brancha:		x
+# register 0 00000000 
+# register 1 xxxxxxxx 
+# register 2 00000000 
+# register 3 00000000 
+# register 4 00000000 
+# register 5 00000000 
+# register 6 00000000 
+# register 7 00000000 
+# PC Address : xxxxxxxx
+# PC D: xxxxxxxx 
+# Instruction : xxxxxxxx
+# memA:	         x
+# memRD:	         x
+# regALUQ:	         x
+# WD3:		         x
+# pcEnableIn:		x
+# pcEnableOut:		x
+# IRegEnable:		x
+# IorD:			x
+# regAEnable:		x
+# memWrite:		x
+# regWriteEnable:	x
+# aluSrc:		x
+# jjr:			x
+# ja:			x
+# link:			x
+# memtoReg:		x
+# brancha:		x
+# register 0 00000000 
+# register 1 xxxxxxxx 
+# register 2 00000000 
+# register 3 00000000 
+# register 4 00000000 
+# register 5 00000000 
+# register 6 00000000 
+# register 7 00000000 
+# PC Address : xxxxxxxx
+# PC D: xxxxxxxx 
+# Instruction : xxxxxxxx
+# memA:	         x
+# memRD:	         x
+# regALUQ:	         x
+# WD3:		         x
+# pcEnableIn:		x
+# pcEnableOut:		x
+# IRegEnable:		x
+# IorD:			x
+# regAEnable:		x
+# memWrite:		x
+# regWriteEnable:	x
+# aluSrc:		x
+# jjr:			x
+# ja:			x
+# link:			x
+# memtoReg:		x
+# brancha:		x
+# register 0 00000000 
+# register 1 xxxxxxxx 
+# register 2 00000000 
+# register 3 00000000 
+# register 4 00000000 
+# register 5 00000000 
+# register 6 00000000 
+# register 7 00000000 
+# PC Address : xxxxxxxx
+# PC D: xxxxxxxx 
+# Instruction : xxxxxxxx
+# Simulation ending after          15 clock cycles 
+# ** Note: $stop    : tester3.sv(37)
+#    Time: 600 ns  Iteration: 1  Instance: /tester3
+# Break in Module tester3 at tester3.sv line 37
+# Stopped at tester3.sv line 37
+# memA:	         x
+# memRD:	         x
+# regALUQ:	         x
+# WD3:		         x
+# pcEnableIn:		x
+# pcEnableOut:		x
+# IRegEnable:		x
+# IorD:			x
+# regAEnable:		x
+# memWrite:		x
+# regWriteEnable:	x
+# aluSrc:		x
+# jjr:			x
+# ja:			x
+# link:			x
+# memtoReg:		x
+# brancha:		x
+# register 0 00000000 
+# register 1 xxxxxxxx 
+# register 2 00000000 
+# register 3 00000000 
+# register 4 00000000 
+# register 5 00000000 
+# register 6 00000000 
+# register 7 00000000 
+# PC Address : xxxxxxxx
+# PC D: xxxxxxxx 
+# Instruction : xxxxxxxx
+# memA:	         x
+# memRD:	         x
+# regALUQ:	         x
+# WD3:		         x
+# pcEnableIn:		x
+# pcEnableOut:		x
+# IRegEnable:		x
+# IorD:			x
+# regAEnable:		x
+# memWrite:		x
+# regWriteEnable:	x
+# aluSrc:		x
+# jjr:			x
+# ja:			x
+# link:			x
+# memtoReg:		x
+# brancha:		x
+# register 0 00000000 
+# register 1 xxxxxxxx 
+# register 2 00000000 
+# register 3 00000000 
+# register 4 00000000 
+# register 5 00000000 
+# register 6 00000000 
+# register 7 00000000 
+# PC Address : xxxxxxxx
+# PC D: xxxxxxxx 
+# Instruction : xxxxxxxx
+# memA:	         x
+# memRD:	         x
+# regALUQ:	         x
+# WD3:		         x
+# pcEnableIn:		x
+# pcEnableOut:		x
+# IRegEnable:		x
+# IorD:			x
+# regAEnable:		x
+# memWrite:		x
+# regWriteEnable:	x
+# aluSrc:		x
+# jjr:			x
+# ja:			x
+# link:			x
+# memtoReg:		x
+# brancha:		x
+# End time: 16:39:20 on Dec 12,2016, Elapsed time: 0:03:44
+# Errors: 0, Warnings: 0

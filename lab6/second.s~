@@ -1,0 +1,25 @@
+.globl list
+
+
+#  Data Area - allocate and initialize variables
+.data
+
+count:
+	.word	10
+list:
+        .word 3 11 157 99 81 13 17 55 11 999
+
+answers:
+	.word 0 0 0
+
+#Text Area (i.e. instructions)
+.text
+
+	# your code goes here, after the main: label
+main:
+
+	
+
+	# leave the next line, it is a correct way to end a program in QtSpim
+	
+	jr $ra

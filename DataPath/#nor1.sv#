@@ -1,0 +1,7 @@
+module nor1(input logic [1:0] I1,
+	    input logic [1:0] I2,
+	    output logic [1:0] O);
+
+   assign O = !(I1|I2)
+
+endmodule
